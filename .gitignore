@@ -1,36 +1,46 @@
-# Dependencies
+# 偶艺云承 - Git忽略配置
+
+# 依赖目录
 node_modules/
-vendor/
 
-# Build output
+# 构建输出
 dist/
-build/
-*.exe
-*.dll
-*.so
-*.dylib
 
-# IDE
-.idea/
+# 开发工具
 .vscode/
+.idea/
 *.swp
 *.swo
 *~
 
-# OS
-Thumbs.db
-.DS_Store
-
-# Environment
+# 环境变量
 .env
 .env.local
 .env.*.local
 
-# Logs
+# 日志文件
 *.log
-logs/
-gh.zip
-bin/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 临时文件
+*.tmp
+*.temp
+temp/
+temp/**/*
+
+# 压缩包
+*.zip
+*.rar
+*.7z
+
+# 锁文件（保持一致性，不锁定依赖版本）
+# package-lock.json
 
 # Claude Code
 .claude/
