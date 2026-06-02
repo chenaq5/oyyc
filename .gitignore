@@ -31,3 +31,6 @@ Thumbs.db
 logs/
 gh.zip
 bin/
+
+# Claude Code
+.claude/
